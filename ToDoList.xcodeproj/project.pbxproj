@@ -21,6 +21,8 @@
 		D7272D172A4E061C009CE395 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D162A4E061C009CE395 /* LoginView.swift */; };
 		D7272D192A4F3683009CE395 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D182A4F3683009CE395 /* RegisterView.swift */; };
 		D7272D1B2A4F369E009CE395 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D1A2A4F369E009CE395 /* ToDoListItemView.swift */; };
+		D7272D1D2A50D340009CE395 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D1C2A50D340009CE395 /* User.swift */; };
+		D7272D1F2A50D394009CE395 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D1E2A50D394009CE395 /* ToDoListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		D7272D162A4E061C009CE395 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D7272D182A4F3683009CE395 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		D7272D1A2A4F369E009CE395 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
+		D7272D1C2A50D340009CE395 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D7272D1E2A50D394009CE395 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		D7272D0E2A4BC0FA009CE395 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D7272D1C2A50D340009CE395 /* User.swift */,
+				D7272D1E2A50D394009CE395 /* ToDoListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,8 +216,10 @@
 				D7272D112A4C8671009CE395 /* ProfileView.swift in Sources */,
 				D7272D192A4F3683009CE395 /* RegisterView.swift in Sources */,
 				D7272D132A4C8760009CE395 /* ToDoListView.swift in Sources */,
+				D7272D1D2A50D340009CE395 /* User.swift in Sources */,
 				D7272D1B2A4F369E009CE395 /* ToDoListItemView.swift in Sources */,
 				D7272CF62A4A50AC009CE395 /* ToDoListApp.swift in Sources */,
+				D7272D1F2A50D394009CE395 /* ToDoListItem.swift in Sources */,
 				D7272D152A4E0608009CE395 /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
