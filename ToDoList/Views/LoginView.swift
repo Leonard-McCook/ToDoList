@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-
+    
     @State var email = ""
     @State var password = ""
     
@@ -17,9 +17,9 @@ struct LoginView: View {
             VStack {
                 // Header
                 HeaderView(title: "To Do List",
-                            subtitle: "Get things done",
-                            angle: 15,
-                            background: .pink)
+                           subtitle: "Get things done",
+                           angle: 15,
+                           background: .pink)
                 
                 // Login Form
                 Form {
@@ -29,38 +29,35 @@ struct LoginView: View {
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    Button {
+                    TLButton(
+                        title: "Log in",
+                        background: .blue
+                    ) {
                         // Attempt log in
-                    } label: {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color.blue)
-                            
-                            Text("Log in")
-                                .foregroundColor(Color.white)
-                                .bold()
-                        }
                     }
                     .padding()
-                }
-                .offset(y: -50)
-                
-                //Create Account
-                VStack {
-                    Text("New around here?")
                     
-                    NavigationLink("Create an Account",
-                                   destination: RegisterView())
-                }
-                .padding(.bottom, 50)
+                    
+                    }
+                    .offset(y: -50)
                 
-                Spacer()
+                
+                    //Create Account
+                    VStack {
+                        Text("New around here?")
+                        
+                        NavigationLink("Create an Account",
+                                       destination: RegisterView())
+                    }
+                    .padding(.bottom, 50)
+                    
+                    Spacer()
+                }
             }
         }
     }
-}
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
+    struct LoginView_Previews: PreviewProvider {
+        static var previews: some View {
+            LoginView()
+        }
     }
-}

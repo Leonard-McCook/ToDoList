@@ -31,6 +31,7 @@
 		D7272D2B2A524350009CE395 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D2A2A524350009CE395 /* RegisterViewViewModel.swift */; };
 		D7272D2D2A52436B009CE395 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D2C2A52436B009CE395 /* ToDoListItemViewViewModel.swift */; };
 		D7272D2F2A538944009CE395 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7272D2E2A538944009CE395 /* HeaderView.swift */; };
+		D7CBEF1B2A5A08530027E590 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CBEF1A2A5A08530027E590 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		D7272D2A2A524350009CE395 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		D7272D2C2A52436B009CE395 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		D7272D2E2A538944009CE395 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D7CBEF1A2A5A08530027E590 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				D7272D182A4F3683009CE395 /* RegisterView.swift */,
 				D7272D1A2A4F369E009CE395 /* ToDoListItemView.swift */,
 				D7272D2E2A538944009CE395 /* HeaderView.swift */,
+				D7CBEF1A2A5A08530027E590 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				D7272D212A5242A9009CE395 /* MainViewViewModel.swift in Sources */,
 				D7272D112A4C8671009CE395 /* ProfileView.swift in Sources */,
 				D7272D192A4F3683009CE395 /* RegisterView.swift in Sources */,
+				D7CBEF1B2A5A08530027E590 /* TLButton.swift in Sources */,
 				D7272D232A5242C9009CE395 /* ProfileViewViewModel.swift in Sources */,
 				D7272D132A4C8760009CE395 /* ToDoListView.swift in Sources */,
 				D7272D1D2A50D340009CE395 /* User.swift in Sources */,
