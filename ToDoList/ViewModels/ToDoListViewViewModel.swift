@@ -10,5 +10,7 @@ import Foundation
 /// ViewModel for listof items view
 /// Primary  tap
 class ToDoListViewViewModel: ObservableObject {
+    @Published var showingNewItemView = false
+    
     init() {}
 }
