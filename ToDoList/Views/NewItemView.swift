@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NewItemView: View {
     @StateObject var viewModel = NewItemViewViewModel()
+    @Binding var newItemPresented: Bool
     
     var body: some View {
         VStack {
@@ -27,12 +28,15 @@ struct NewItemView: View {
                     .datePickerStyle(GraphicalDatePickerStyle())
                 
                 // Button
-                TLButton(title: "Save",
-                         background: .pink) {
+                TLButton(
+                    title: "Save",
+                    background: .pink
+                ) {
                     viewModel.save()
+                    newItemPresented = false
                 }
-                         .padding()
-                         
+                .padding()
+                
                 
             }
         }
@@ -41,6 +45,10 @@ struct NewItemView: View {
 
 struct NewItemView_Previews: PreviewProvider {
     static var previews: some View {
-        NewItemView()
+        NewItemView(newItemPresented: Binding(get: {
+            return true
+        }, set: { _ in
+            
+        }))
     }
 }
