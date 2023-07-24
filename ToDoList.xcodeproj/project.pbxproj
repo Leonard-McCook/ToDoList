@@ -118,10 +118,10 @@
 				D7272CF72A4A50AC009CE395 /* MainView.swift */,
 				D7272D102A4C8671009CE395 /* ProfileView.swift */,
 				D7272D122A4C8760009CE395 /* ToDoListView.swift */,
+				D7272D1A2A4F369E009CE395 /* ToDoListItemView.swift */,
 				D7272D142A4E0608009CE395 /* NewItemView.swift */,
 				D7272D162A4E061C009CE395 /* LoginView.swift */,
 				D7272D182A4F3683009CE395 /* RegisterView.swift */,
-				D7272D1A2A4F369E009CE395 /* ToDoListItemView.swift */,
 				D7272D2E2A538944009CE395 /* HeaderView.swift */,
 				D7CBEF1A2A5A08530027E590 /* TLButton.swift */,
 			);
