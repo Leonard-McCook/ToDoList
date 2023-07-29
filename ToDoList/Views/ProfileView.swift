@@ -13,7 +13,16 @@ struct ProfileView: View {
     var body: some View {
         NavigationView {
             VStack {
+                // Avatar
+                Image(systemName: "person.circle")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(Color.blue)
+                    .frame(width: 125, height: 125)
+                    
+                // Info: Name, Email, Member since
                 
+                //Sign out
             }
             .navigationTitle("Profile")
         }
