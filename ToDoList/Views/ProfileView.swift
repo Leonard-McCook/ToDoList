@@ -19,10 +19,40 @@ struct ProfileView: View {
                     .aspectRatio(contentMode: .fit)
                     .foregroundColor(Color.blue)
                     .frame(width: 125, height: 125)
+                    .padding()
                     
                 // Info: Name, Email, Member since
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("Name: ")
+                            .bold()
+                        Text("Leonard McCook")
+                    }
+                    .padding()
+                    HStack {
+                        Text("Email: ")
+                            .bold()
+                        Text("Leonard McCook")
+                    }
+                    .padding()
+                    HStack {
+                        Text("Member since ")
+                            .bold()
+                        Text("Leonard McCook")
+                    }
+                    .padding()
+                    
+                }
+                .padding()
                 
                 //Sign out
+                Button("Log Out") {
+                    viewModel.logOut()
+                }
+                .tint(.red)
+                .padding()
+                
+                Spacer()
             }
             .navigationTitle("Profile")
         }
