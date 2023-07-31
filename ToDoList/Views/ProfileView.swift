@@ -26,7 +26,7 @@ struct ProfileView: View {
                     HStack {
                         Text("Name: ")
                             .bold()
-                        Text("Leonard McCook")
+                        Text("Leonard McCook-Carr")
                     }
                     .padding()
                     HStack {
